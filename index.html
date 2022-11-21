@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipo Sanguineo</title>
+    <link rel="stylesheet" href="CSS/tipo-sanguineo.css">
+    
+    <link rel="stylesheet" href="CSS/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="laboratory-name">Laboratório Farhat</h1>
+        
+    </header>
+
+    <main>
+        <section class="cadastro">
+            <h2 class="cadastros">Cadastros</h2>
+            <table>
+                <tbody class="info-ts">
+                    <tr>
+                        <th>Nome do paciente</th>
+                        <th>Tipo sanguineo</th>
+                    </tr>
+                    <tr class="paciente" id="primeiro-paciente">
+                        <td class="info-nome">Gabriel Farhat</td>
+                        <td class="tipo-sanguineo">O-</td>
+                    </tr>
+                    <tr class="paciente">
+                        <td class="info-nome">Thais Barbosa</td>
+                        <td class="tipo-sanguineo">A+</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="container">
+            <h2 id="titulo-form">Registrar novo paciente</h2>
+
+            <form>
+                <div class="nome">
+                    <label class="add-nome" for="nome">Nome:</label>
+                    <input id="nome" name="nome" type="text" placeholder="digite o nome do paciente..." class="campo">
+                </div>
+                <div class="grupo">
+                    <label class="tipo-de-sangue add-nome" for="tipos">Tipo sanguíneo:</label>
+                    <input id="tipo-sangue" name="tipo-de-sangue" type="text" placeholder="digite o tipo sanguínio do paciente..." class="campo campo-medio">
+                </div>
+                <div class="botao">
+                    <button id="adicionar-paciente" class="bto">REGISTRAR</button>
+                </div>
+            </form>
+
+        </section>
+    </main>
+    
+    
+        
+    <script src="JS/registro.js"></script>
+</body>
+</html>

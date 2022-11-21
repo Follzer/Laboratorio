@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body {
+    background-color: #F0F0F2;
+}
+
+
+header {
+    background-color: #6D86A6;
+    height: 7vh;
+   
+    
+}
+
+header .laboratory-name {
+    font-family: 'Stick No Bills', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #F0F0F2;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 4px;
+    padding-right: 20px;
+    text-align: right;
+    
+    
+}
+
+
+section .cadastros {
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #000000b8;
+    padding-bottom: 10px;
+    border-bottom: 1px #9BABBF solid;
+    margin-top: 18px;
+    margin-bottom: 18px;
+
+    
+}
+
+table, th, td {
+    
+    border: 1px solid black;
+}
+    
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+    
+th, td{
+    padding: 14px;
+    text-align: center;
+    
+    width: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+    
+th{
+    font-family: 'Roboto', sans-serif;
+}
+    
+tr:nth-child(even) {
+    background-color: #9BABBF;
+}
+    
+tr:hover:nth-child(1n + 2) {
+    background-color: #2B76D9;
+    color: #fff;
+}
+
+
+#titulo-form {
+    background-color: #6D86A6;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 40px;
+    color: #fff;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px #9BABBF solid;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+form .nome {
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    width: 38vh;
+    padding-left: 40px;
+}
+
+.add-nome {
+    padding-bottom: 10px;
+}
+
+#nome {
+    padding: 15px 0px 3px 5px;
+    font-size: 20px;
+}
+
+form .grupo {
+    position: relative;
+    left: 430px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    width: 38vh;
+}
+
+#tipo-sangue {
+    padding: 15px 0px 3px 5px;
+    font-size: 20px;
+}
+
+.campo:hover {
+    background-color: #9BABBF;
+}
+
+form #adicionar-paciente {
+    background-color: #9BABBF;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    font-size: 16px;
+    position: relative;
+    left: 591px;
+    margin-top: 20px;
+}
+
+#adicionar-paciente:hover {
+    background-color: #2B76D9;
+}
