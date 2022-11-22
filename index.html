@@ -26,10 +26,10 @@
         <section class="cadastro">
             <h2 class="cadastros">Cadastros</h2>
             <table>
-                <tbody class="info-ts">
-                    <tr>
+                <tbody id="tabela-paciente" class="info-ts">
                         <th>Nome do paciente</th>
                         <th>Tipo sanguineo</th>
+                    <tr>
                     </tr>
                     <tr class="paciente" id="primeiro-paciente">
                         <td class="info-nome">Gabriel Farhat</td>
@@ -46,14 +46,14 @@
         <section class="container">
             <h2 id="titulo-form">Registrar novo paciente</h2>
 
-            <form>
+            <form id="form-adiciona">
                 <div class="nome">
                     <label class="add-nome" for="nome">Nome:</label>
                     <input id="nome" name="nome" type="text" placeholder="digite o nome do paciente..." class="campo">
                 </div>
                 <div class="grupo">
                     <label class="tipo-de-sangue add-nome" for="tipos">Tipo sanguíneo:</label>
-                    <input id="tipo-sangue" name="tipo-de-sangue" type="text" placeholder="digite o tipo sanguínio do paciente..." class="campo campo-medio">
+                    <input id="sangue" name="sangue" type="text" placeholder="digite o tipo sanguínio do paciente..." class="campo campo-medio">
                 </div>
                 <div class="botao">
                     <button id="adicionar-paciente" class="bto">REGISTRAR</button>
